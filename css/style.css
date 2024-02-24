@@ -1,0 +1,32 @@
+*{
+    opacity: 1;
+}
+
+html{
+    scroll-behavior: smooth;
+
+    background-position:center;
+    background-image:url(../images/locaties/Sanne\ Bas\ -\ Curio\ -\ Terheijdenseweg\ 350-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.8;
+
+}
+
+
+/* header */
+
+
+/* body */
+
+body{
+    width: 82%;
+    margin: 0 auto;
+}
+
+/* footer */
+
+
+
+/* classes */
+piemol
