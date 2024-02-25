@@ -1,5 +1,6 @@
 *{
     opacity: 1;
+    font-family: 'Maven Pro', sans-serif;
 }
 
 html{
@@ -9,13 +10,56 @@ html{
     background-image:url(../images/locaties/Sanne\ Bas\ -\ Curio\ -\ Terheijdenseweg\ 350-2.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    opacity: 0.8;
-
 }
 
 
 /* header */
 
+header{
+    background-image:url(../images/andere/curio-personen-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 25%;
+    background-size: cover;
+
+    border: solid black;
+    border-width: 0px 2px 2px 2px;
+    border-radius: 0% 0% 25% 25%;
+    padding: 2%;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    transition: 400ms ease-out 100ms;
+    padding: 2%;
+}
+
+header nav p a{
+    background-color: transparent;
+    transition: none;
+    border: none;
+
+}
+
+
+header nav a:hover{
+    font-size: 115%;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 20%;
+
+}
+
+header nav p a:hover{
+    background-color: transparent;
+
+}
 
 /* body */
 
@@ -29,4 +73,101 @@ body{
 
 
 /* classes */
-piemol
+.navigatie{
+    width: 80%;
+}
+
+
+
+.intro{
+    margin: 5%;
+    padding: 5%;
+    background-color: antiquewhite;
+    border-radius: 25%;
+    border: black 5px;
+    border-style: groove;
+    width: 80%;
+}
+
+
+.leer{
+    background-image:url(../images/andere/Curio-persoon-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    background-color: rgba(255, 192, 203, 1);
+    border-radius: 5%;
+    border: solid 3px palevioletred;
+}
+
+.leer h1{
+    padding: 5% 0% 2% 5%;
+}
+
+.leer p{
+    padding: 0% 5% 5% 5%;
+}
+
+
+.rooster{
+    border: outset 5px black;
+    margin: 5% 5% 5% 5%;
+    padding: 5%;
+    background-color: rgba(218, 165, 32, 0.5);
+    border-radius: 10%;
+}
+
+
+.werk{
+    background-image: url(../images/andere/Template-Full-screen-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: solid cyan 5px;
+    border-radius: 5%;
+
+    margin: 5% 0% 5% 0%;
+    padding: 5%;
+
+    color: white;
+}
+
+.sfeer{
+    background-color: firebrick;
+    border: ridge black 5px;
+    border-radius: 10%;
+
+    margin: 5%;
+    padding: 5%;
+
+    color: rgb(255, 255, 255);
+}
+
+footer p{
+    text-align: center;
+    padding: 5%;
+    background-color: black;
+    color: white;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.top{
+    position:absolute;right:4%;
+    position:absolute;bottom:10%;
+    position: fixed;
+}
+
+.top a{
+    color: white;
+    text-decoration: none;
+    background-color: cyan;
+    border: outset black 3px;
+    padding: 35%;
+    transition: 250ms ease-in-out 100ms;
+}
+
+.top a:hover{
+    background-color: rgb(0, 180, 180);
+    border: inset black 3px;
+}
